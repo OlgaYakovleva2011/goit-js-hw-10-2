@@ -3,7 +3,7 @@
 //   import { something } from './something.js';
 
 console.log('Шаблон готовий. Можна писати код 🚀');
-import { PREP_TIME } from "./menu.js";
+import { PREP_TIME } from "./js/menu.js";
 const form = document.querySelector(".form");
 const orderLog = document.querySelector(".order-log");
 function makeOrder(delay, shouldResolve) {
